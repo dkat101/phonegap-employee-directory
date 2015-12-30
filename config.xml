@@ -23,6 +23,9 @@
     <feature name="http://api.phonegap.com/1.0/network"/>
     <feature name="http://api.phonegap.com/1.0/notification"/>-->
 
-    <plugin name="cordova-plugin-contacts" spec="1.1.0" source="pgb" />
+    <!--<plugin name="cordova-plugin-contacts" spec="1.1.0" source="pgb" />-->
+    <feature name="Contacts">
+        <param name="android-package" value="org.apache.cordova.contacts.ContactManager" />
+    </feature>
 
 </widget>
